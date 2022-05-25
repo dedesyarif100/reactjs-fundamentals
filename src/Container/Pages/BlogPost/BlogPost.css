@@ -1,0 +1,120 @@
+// DELETE DATA STYLE
+.section-title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.post {
+    width: 500px;
+    padding: 10px;
+    box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.img-thumb {
+    width: 200px;
+    height: 150px;
+    margin-right: 20px;
+}
+
+.img-thumb img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.content {
+    flex: 1;
+}
+
+.content p.title {
+    margin: 0px;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 16px;
+}
+
+.content p.title:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.content p.desc {
+    margin: 0px;
+    font-size: 16px;
+    color: black;
+}
+
+.remove {
+    padding: 12px 18px;
+    background: red;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 18px;
+}
+
+.remove:hover {
+    cursor: pointer;
+}
+
+// FORM STYLE
+.form-add-post {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+    width: 400px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 4px;
+}
+
+.form-add-post label {
+    display: block;
+    font-size: 14px;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-add-post input, .form-add-post textarea {
+    outline: none;
+    border: 1px solid black;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    color: black;
+}
+
+button.btn-submit {
+    outline: none;
+    border: 1px solid black;
+    padding: 10px 30px;
+    border-radius: 4px;
+    color: black;
+    text=-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.update {
+    padding: 12px 18px;
+    background: #004d8c;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 18px;
+}
+
+.update:hover {
+    cursor: pointer;
+}
